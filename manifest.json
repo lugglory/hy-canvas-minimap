@@ -1,7 +1,7 @@
 {
 	"id": "hy-canvas-minimap",
 	"name": "HY Canvas Minimap",
-	"version": "0.3.1",
+	"version": "0.1.0",
 	"minAppVersion": "1.1.0",
 	"description": "Adds a minimap to Canvas for quick navigation of large canvases.",
 	"author": "lugglory",
