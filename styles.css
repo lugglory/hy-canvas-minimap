@@ -1,0 +1,28 @@
+.canvas-minimap {
+	position: absolute;
+	bottom: 16px;
+	z-index: 10;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+	overflow: hidden;
+	cursor: pointer;
+	/* Don't let canvas wheel/drag panning start from the minimap. */
+	touch-action: none;
+}
+
+.canvas-minimap.is-hidden {
+	display: none;
+}
+
+.canvas-minimap.is-left {
+	left: 16px;
+}
+
+.canvas-minimap.is-right {
+	right: 16px;
+}
+
+.canvas-minimap canvas {
+	display: block;
+}

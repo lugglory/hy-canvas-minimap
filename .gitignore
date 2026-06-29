@@ -1,0 +1,17 @@
+# build / deps
+node_modules/
+main.js
+*.js.map
+
+# local-only deploy target (personal vault path)
+deploy.local.json
+
+# transient release notes
+.release-notes.tmp
+
+# obsidian
+data.json
+
+# os
+.DS_Store
+Thumbs.db
